@@ -1,0 +1,44 @@
+.app {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.subject-row {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+  justify-content: center;
+}
+
+select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #4CAF50;
+  color: white;
+}
+
+.remove-btn {
+  background: #ff4444;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f0f8ff;
+  border-radius: 10px;
+}
+
+.result h2 {
+  color: #2c3e50;
+}
